@@ -8,6 +8,6 @@ import './main.css'
 
 createApp(App).use(store).use(router).use(VueGoogleMaps, {
     load: {
-        key: 'AIzaSyB4GgYEotvx9s2XDJQecD3KNbb6sCVDy68',
+        key: 'your key here',
     },
 }).mount('#app')
